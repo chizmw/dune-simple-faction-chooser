@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dune-simple-faction-chooser"
+version = "0.0.1"
+description = "Try to make fair faction assignments for a game of Dune"
+authors = ["Chisel <chisel@malik-wright.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
