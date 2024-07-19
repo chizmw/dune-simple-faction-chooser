@@ -10,6 +10,11 @@ package-mode = false
 python = "^3.12"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+mypy = "^1.10.1"
+pandas-stubs = "^2.2.2.240603"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
